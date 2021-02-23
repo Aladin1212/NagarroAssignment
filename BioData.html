@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>My Bio Data</title>
+    </head>
+    <body>
+       <h1>My Bio Data</h1>
+       <form action="" method="GET">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <lable for="first">FirstName:</lable>
+          <input type="text" id="first" placeholder="First Name">
+          <lable for="last">LastName:</lable>
+          <input type="text" id="last" placeholder="Last Name">
+          <br>
+          <br>
+          <label for="male">Male:</label>
+          <input type="radio" id="male" name="gender">
+          <label for="female">Female:</label>
+          <input type="radio" id="female" name="gender">
+          <label for="other">Other:</label>
+          <input type="radio" id="other" name="gender">
+          <br>
+          <br>
+          <label for="date">Date of Birth:</label>
+          <input type="date" id="date">
+          <br>
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter Your Email">
+          <br><br>
+          <label for="tel">Phone:</label>
+          <input type="tel" maxlength="10" placeholder="+91" id="tel">
+          <br><br>
+          <label for="num">Height:</label>
+          <input type="number" id="num" placeholder="Height in Feet" min="1" max="10">
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="school">School Name :</label>
+            <input type="text" id="school" placeholder="School Name">
+            <br> <br>
+            <label for="cls">Class:</label>
+            <input type="text" id="cls" placeholder="Enter Class">
+            <br><br>
+            <lable for="stm">Stream:</lable>
+            <select id="stm">
+                <option name="stm">Stream</option>
+                <option name="stm">Arts</option>
+                <option name="stm">Science</option>
+                <option name="stm">Commerce</option>
+            </select>
+            <br><br>
+            <lable for="marks">Marksheet:</lable>
+            <input type="file" id="marks">
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+       </form>
+    </body>
+</html>
